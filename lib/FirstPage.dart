@@ -7,16 +7,6 @@ class Entry extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        iconTheme: IconThemeData(color: Colors.white),
-        backgroundColor: Colors.transparent,
-        leading: IconButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          icon: Icon(Icons.arrow_back),
-        ),
-      ),
       backgroundColor: Color.fromRGBO(35, 35, 54, 1),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
